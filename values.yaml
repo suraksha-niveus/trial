@@ -7,8 +7,8 @@ replicaCount: 1
 image:
   repository: surakshaniveus/helm
   pullPolicy: IfNotPresent
-  # Overrides the image tag: 5
-  tag: 5
+  # Overrides the image tag: 6
+  tag: 6
 
 imagePullSecrets: []
 nameOverride: ""
@@ -72,8 +72,8 @@ autoscaling:
   enabled: false
   minReplicas: 1
   maxReplicas: 100
-  targetCPUUtilizationPercentag: 5
-  # targetMemoryUtilizationPercentag: 5
+  targetCPUUtilizationPercentag: 6
+  # targetMemoryUtilizationPercentag: 6
 
 nodeSelector: {}
 
