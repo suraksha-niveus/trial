@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: surakshaniveus/py03
+  repository: surakshaniveus/helm
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "01"
+  tag: 
 
 imagePullSecrets: []
 nameOverride: ""
