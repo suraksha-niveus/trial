@@ -15,10 +15,10 @@ node {
                         sh "git config user.email suraksha.shetty@niveussolutions.com"
                         sh "git config user.name suraksha"
                      
-                        sh "cat cicd/values.yaml"
+                        sh "cat values.yaml"
                           
                   
-                        sh "sed -i 's+tag.*+tag: ${DOCKERTAG}+g' cicd/values.yaml"
+                        sh "sed -i 's+tag.*+tag: ${DOCKERTAG}+g' values.yaml"
                       
                      
                         sh "cat values.yaml"
