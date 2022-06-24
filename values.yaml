@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: surakshaniveus/argocd
+  repository: surakshaniveus/cicd
   pullPolicy: IfNotPresent
   # Overrides the image tag: 9
-  tag: 9
+  tag: 
 
 imagePullSecrets: []
 nameOverride: ""
