@@ -7,8 +7,8 @@ replicaCount: 1
 image:
   repository: surakshaniveus/cicd
   pullPolicy: IfNotPresent
-  # Overrides the image tag: 14
-  tag: 14
+  # Overrides the image tag: 15
+  tag: 15
 
 imagePullSecrets: []
 nameOverride: ""
@@ -72,8 +72,8 @@ autoscaling:
   enabled: false
   minReplicas: 1
   maxReplicas: 100
-  targetCPUUtilizationPercentag: 14
-  # targetMemoryUtilizationPercentag: 14
+  targetCPUUtilizationPercentag: 15
+  # targetMemoryUtilizationPercentag: 15
 
 nodeSelector: {}
 
